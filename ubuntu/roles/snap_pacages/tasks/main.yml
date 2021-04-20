@@ -2,7 +2,6 @@
   snap:
     name:
       - code
-      - slack
       - intellij-idea-community
       - atom
       - sublime-text
