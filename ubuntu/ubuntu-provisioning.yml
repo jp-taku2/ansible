@@ -1,0 +1,6 @@
+- hosts: ubuntu
+  become: yes
+  gather_facts: false
+  roles:
+    - apt_pacages
+    - snap_pacages

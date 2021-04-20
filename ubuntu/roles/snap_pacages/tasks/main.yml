@@ -1,0 +1,12 @@
+- name: Install snap packages
+  snap:
+    name:
+      - code
+      - slack
+      - intellij-idea-community
+      - atom
+      - sublime-text
+      - 1password-linux
+      - discord
+      - chromium
+    classic: yes

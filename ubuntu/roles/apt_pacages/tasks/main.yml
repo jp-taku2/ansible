@@ -1,0 +1,16 @@
+- name: Upgrade all package
+  apt:
+    update_cache: yes
+    upgrade: yes
+
+- name: Install apt packages
+  apt:
+    name:
+      - vim
+      - curl
+      - git
+      - docker-compose
+      - tree
+      - snapd
+      - mysql-client
+    state: latest
