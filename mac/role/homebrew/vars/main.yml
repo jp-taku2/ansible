@@ -1,0 +1,49 @@
+homebrew_taps:
+  - heroku/brew
+  - homebrew/bundle
+  - homebrew/cask
+  - homebrew/core
+
+homebrew_packages:
+  - ansible
+  - atom
+  - autoconf
+  - awscli
+  - bash-completion
+  - ccat
+  - cmake
+  - discord
+  - docker
+  - git
+  - go
+  - heroku
+  - hub
+  - jq
+  - mas
+  - minikube
+  - nkf
+  - rustup
+  - spotify
+  - tfenv
+  - tig
+  - tree
+  - vim
+  - wget
+
+homebrew_cask_packages:
+  - alfred
+  - deepl
+  - drawio
+  - firefox
+  - google-chrome
+  - google-cloud-sdk
+  - google-japanese-ime
+  - alt-tab
+  - intellij-idea-ce
+  - notable
+  - postman
+  - zoom
+  - slack
+  - vagrant
+  - virtualbox
+  - visual-studio-code
