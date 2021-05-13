@@ -1,0 +1,56 @@
+homebrew_taps:
+  - heroku/brew
+  - homebrew/bundle
+  - homebrew/cask
+  - homebrew/core
+homebrew_cask_packages:
+  - name: alfred
+  - name: deepl
+  - name: drawio
+  - name: firefox
+  - name: google-chrome
+  - name: google-cloud-sdk
+  - name: google-japanese-ime
+  - name: alt-tab
+  - name: intellij-idea-ce
+  - name: karabiner-elements
+  - name: notable
+  - name: notion
+  - name: postman
+  - name: zoom
+  - name: slack
+  - name: vagrant
+  - name: virtualbox
+  - name: visual-studio
+  - name: visual-studio-code
+homebrew_packages:
+  - name: ansible
+  - name: atom
+  - name: autoconf
+  - name: awscli
+  - name: bash-completion
+  - name: ccat
+  - name: cmake
+  - name: discord
+  - name: docker
+  - name: git
+  - name: go
+  - name: heroku
+  - name: hub
+  - name: jq
+  - name: mas
+  - name: minikube
+  - name: nkf
+  - name: rustup
+  - name: spotify
+  # - name: terraform
+  - name: tfenv
+  - name: tig
+  - name: tmux
+  - name: tree
+  - name: vim
+  - name: wget
+dot_files:
+  - name: bash_profile
+  - name: bashrc
+
