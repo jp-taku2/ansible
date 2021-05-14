@@ -6,13 +6,10 @@ homebrew_taps:
 
 homebrew_packages:
   - ansible
-  - atom
-  - autoconf
   - awscli
   - bash-completion
   - ccat
   - cmake
-  - discord
   - docker
   - git
   - go
@@ -23,7 +20,6 @@ homebrew_packages:
   - minikube
   - nkf
   - rustup
-  - spotify
   - tfenv
   - tig
   - tree
@@ -32,18 +28,25 @@ homebrew_packages:
 
 homebrew_cask_packages:
   - alfred
+  - atom
   - deepl
+  - discord
   - drawio
   - firefox
   - google-chrome
   - google-cloud-sdk
-  - google-japanese-ime
   - alt-tab
+  - iterm2
   - intellij-idea-ce
   - notable
+  - notion
   - postman
-  - zoom
+  - shiftit
   - slack
-  - vagrant
-  - virtualbox
+  - spotify
   - visual-studio-code
+  - zoom
+# M1 processor unsupported
+##  - vagrant
+##  - virtualbox
+##  - google-japanese-ime

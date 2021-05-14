@@ -4,19 +4,18 @@
 
 - name: homebrew tap
   homebrew_tap:
-    name: '{{ item }}'
+    name: '{{ homebrew_taps }}'
     state: present
-  with_items: '{{ homebrew_taps }}'
 
 - name: homebrew packages insatall
   homebrew:
-    name: '{{ item }}'
-    state: latest
-  with_items: '{{ homebrew_packages }}'
+    name: '{{ homebrew_packages }}'
+    state: present
+    update_homebrew: true
+    upgrade_all: true
 
 - name: homebrew cask packages install
   community.general.homebrew_cask:
-    name: '{{ item }}'
+    name: '{{ homebrew_cask_packages }}'
     state: present
     install_options: 'appdir=/Applications'
-  with_items: '{{ homebrew_cask_packages }}'

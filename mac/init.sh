@@ -16,4 +16,4 @@ git clone -b template https://github.com/jp-taku2/ansible.git ${ANSIBLE_PATH}
 
 ## ansible
 cd ${ANSIBLE_PATH}/mac
-ansible-playbook -i inventory/mac-provisio mac-provisioning.yml
+ansible-playbook mac-provisioning.yml
